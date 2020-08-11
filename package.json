@@ -1,0 +1,41 @@
+{
+  "name": "gm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "build-dev": "webpack -d --mode development",
+    "build-prod": "webpack -p --mode production",
+    "start": "webpack-dev-server --hot --mode development",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hot-loader": "^4.12.21",
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@hot-loader/react-dom": "^16.13.0+4.12.20",
+    "webpack-dev-server": "^3.11.0",
+    "css-loader": "^4.2.1",
+    "style-loader": "^1.2.1",
+    "sass-loader": "^9.0.3",
+    "node-sass": "^4.14.1",
+    "prettier": "^2.0.5",
+    "jest": "^26.3.0",
+    "babel-jest": "^26.3.0"
+  }
+}
