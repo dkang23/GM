@@ -1,5 +1,3 @@
 branches:
   except:
-   - master
-linter:
-  - prettier
+  - master
